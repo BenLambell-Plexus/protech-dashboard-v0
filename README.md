@@ -1,4 +1,6 @@
-Rudimentary Protech Dashboard.
+Draft Protech Dashboard.
+
+![image](https://user-images.githubusercontent.com/61395658/209268374-a484d085-b3bd-4279-8b78-1524e15a5b8d.png)
 
 ## Local Development
 
