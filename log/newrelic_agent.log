@@ -1,0 +1,194 @@
+# Logfile created on 2022-12-23 10:02:05 +1100 by logger.rb/66358
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] INFO : Starting the New Relic agent version 8.14.0 in "development" environment.
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] WARN : No configuration file found. Working directory = /Users/benlambell/plxs/protech_dashboard
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] WARN : Looked in these locations (based on defaults): /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/.newrelic/newrelic.yml, /Users/benlambell/newrelic.yml, /Users/benlambell/.newrelic/newrelic.yml.erb, /Users/benlambell/newrelic.yml.erb
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] INFO : Environment: development
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] INFO : Dispatcher: thin
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] INFO : Application: development
+[2022-12-23 10:02:05 +1100 Bens-MBP (2248)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing Sinatra instrumentation
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing Tilt instrumentation
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing Net:HTTP Wrappers
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing Logger instrumentation
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing Thread Instrumentation
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Finished instrumentation
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : We weren't able to instrument all of your Rack middlewares.
+[2022-12-23 10:02:06 +1100 Bens-MBP (2248)] INFO : To correct this, ensure you 'require "newrelic_rpm"' before setting up your middleware stack.
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Starting the New Relic agent version 8.14.0 in "development" environment.
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] WARN : No configuration file found. Working directory = /Users/benlambell/plxs/protech_dashboard
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] WARN : Looked in these locations (based on defaults): /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/.newrelic/newrelic.yml, /Users/benlambell/newrelic.yml, /Users/benlambell/.newrelic/newrelic.yml.erb, /Users/benlambell/newrelic.yml.erb
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Environment: development
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Dispatcher: thin
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Application: development
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing Sinatra instrumentation
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing Tilt instrumentation
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing Net:HTTP Wrappers
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing Logger instrumentation
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing Thread Instrumentation
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Finished instrumentation
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : We weren't able to instrument all of your Rack middlewares.
+[2022-12-23 10:02:41 +1100 Bens-MBP (2262)] INFO : To correct this, ensure you 'require "newrelic_rpm"' before setting up your middleware stack.
+[2022-12-23 10:02:51 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:02:51 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:02:51 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 15 seconds
+[2022-12-23 10:03:07 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:03:07 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:03:07 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 30 seconds
+[2022-12-23 10:03:40 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:03:40 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:03:40 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 60 seconds
+[2022-12-23 10:04:42 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:04:42 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:04:42 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 120 seconds
+[2022-12-23 10:06:45 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:06:45 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:06:45 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:11:47 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:11:47 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:11:47 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:16:50 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:16:50 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:16:50 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:21:54 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:21:54 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:21:54 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:35:32 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:35:32 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:35:32 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:45:26 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:45:26 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:45:26 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:50:28 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:50:28 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:50:28 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 10:55:31 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 10:55:31 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 10:55:31 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:00:31 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:00:31 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2022-12-23 11:00:31 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:05:31 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:05:31 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2022-12-23 11:05:31 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:10:33 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:10:33 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:10:33 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:15:36 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:15:36 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:15:36 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:37:16 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:37:16 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:37:16 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:42:19 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:42:19 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:42:19 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:47:20 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:47:20 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:47:20 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:52:22 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:52:22 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:52:22 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 11:57:25 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 11:57:25 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 11:57:25 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:02:28 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:02:28 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:02:28 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:07:30 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:07:30 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:07:30 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:12:32 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:12:32 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:12:32 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:17:33 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:17:33 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:17:33 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:22:35 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:22:35 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:22:35 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 12:57:34 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 12:57:34 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 12:57:34 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 13:30:51 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 13:30:51 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 13:30:51 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 13:40:15 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 13:40:15 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 13:40:15 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 13:45:18 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 13:45:18 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 13:45:18 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 13:50:21 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 13:50:21 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 13:50:21 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 13:56:15 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 13:56:15 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: end of file reached
+[2022-12-23 13:56:15 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 14:02:09 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:02:09 +1100 Bens-MBP (2262)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read server session ticket A
+[2022-12-23 14:02:09 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 14:07:12 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:07:12 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 14:07:12 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 14:15:15 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:15:15 +1100 Bens-MBP (2262)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 14:15:15 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 14:51:12 +1100 Bens-MBP (2262)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:51:12 +1100 Bens-MBP (2262)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read server session ticket A
+[2022-12-23 14:51:12 +1100 Bens-MBP (2262)] INFO : Will re-attempt in 300 seconds
+[2022-12-23 14:53:33 +1100 Bens-MBP (2262)] INFO : Starting Agent shutdown
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Starting the New Relic agent version 8.14.0 in "development" environment.
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] WARN : No configuration file found. Working directory = /Users/benlambell/plxs/protech_dashboard
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] WARN : Looked in these locations (based on defaults): /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/newrelic.yml, /Users/benlambell/plxs/protech_dashboard/config/newrelic.yml.erb, /Users/benlambell/plxs/protech_dashboard/newrelic.yml.erb, /Users/benlambell/.newrelic/newrelic.yml, /Users/benlambell/newrelic.yml, /Users/benlambell/.newrelic/newrelic.yml.erb, /Users/benlambell/newrelic.yml.erb
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Environment: development
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Dispatcher: thin
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Application: development
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing Sinatra instrumentation
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported Sinatra instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported Build instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing Tilt instrumentation
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported Tilt instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing Net:HTTP Wrappers
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing Logger instrumentation
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing Thread Instrumentation
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Finished instrumentation
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : We weren't able to instrument all of your Rack middlewares.
+[2022-12-23 14:53:39 +1100 192.168.20.91 (6896)] INFO : To correct this, ensure you 'require "newrelic_rpm"' before setting up your middleware stack.
+[2022-12-23 14:54:47 +1100 192.168.20.91 (6896)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:54:47 +1100 192.168.20.91 (6896)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 14:54:47 +1100 192.168.20.91 (6896)] INFO : Will re-attempt in 15 seconds
+[2022-12-23 14:55:05 +1100 192.168.20.91 (6896)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:55:05 +1100 192.168.20.91 (6896)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 14:55:05 +1100 192.168.20.91 (6896)] INFO : Will re-attempt in 30 seconds
+[2022-12-23 14:55:37 +1100 192.168.20.91 (6896)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2022-12-23 14:55:37 +1100 192.168.20.91 (6896)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2022-12-23 14:55:37 +1100 192.168.20.91 (6896)] INFO : Will re-attempt in 60 seconds
