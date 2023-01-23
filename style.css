@@ -19,6 +19,7 @@ body {
 
 .panel > iframe {
   position: absolute;
+  height: 100%;
 }
 
 .quadrant {
