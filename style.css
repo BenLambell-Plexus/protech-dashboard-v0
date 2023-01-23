@@ -4,7 +4,12 @@ body {
   height: 100vh;
 }
 
-.panel, .quadrant {
+.panel {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12,9 +17,8 @@ body {
   flex-direction: column;
 }
 
-.panel {
-  width: 100%;
-  height: 100%;
+.panel > iframe {
+  position: absolute;
 }
 
 .quadrant {
